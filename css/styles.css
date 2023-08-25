@@ -909,7 +909,6 @@ button {
 
 .modal-check-cover {
   margin-bottom: 24px;
-  display: block;
 }
 
 .modal-check-input:checked + .modal-check-text .modal-check-box {
@@ -923,6 +922,7 @@ button {
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
+  display: block;
 }
 
 .modal-check-box {
@@ -931,7 +931,7 @@ button {
   border-radius: 2px;
   border: 1px solid rgba(46, 47, 66, 0.4);
   margin-right: 8px;
-  display: block;
+  display: inline-flex;
   align-items: center;
   justify-content: center;
   fill: transparent;
